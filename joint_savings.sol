@@ -54,7 +54,7 @@ contract JointSavings {
         /*
         Add and `if` statement to check if the `lastToWithdraw` is not equal to (`!=`) to `recipient` If `lastToWithdraw` is not equal, then set it to the current value of `recipient`.
         */
-        if (lastToWithdraw != msg.sender) {lastToWithdraw = msg.sender;}
+        if (lastToWithdraw != recipient) {lastToWithdraw = recipient;}
 
         // Call the `transfer` function of the `recipient` and pass it the `amount` to transfer as an argument.
         recipient.transfer(amount);
@@ -88,6 +88,6 @@ contract JointSavings {
     /*
     Finally, add the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
     */
-function() external payable {}
+fallback() external payable {}
 
 }
