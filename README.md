@@ -12,7 +12,7 @@ We are sending and recording etherium transactions using ganache.
 ![Deployed contract](Execution_Results/deployment.png)
 
 **Set Account 1 & Account 2**
-![set accounts](Execution_Results/set accounts.png)
+![set accounts](Execution_Results/set_accounts.png)
 
 **Completion of initial deposits**
 * Transaction 1: Send 1 ether as wei.
@@ -22,11 +22,11 @@ We are sending and recording etherium transactions using ganache.
 
 
 **Withdrawl #1 - 5 ether to Account1**
-![first withdrawl](Execution_Results/withdrawl 1.png)
+![first withdrawl](Execution_Results/withdrawl_1.png)
 
 
 **Withdrawl #2 - 10 ether to Account2**
-![second withdrawl](Execution_Results/withdrawl 2.png)
+![second withdrawl](Execution_Results/withdrawl_2.png)
 
 ## Technologies
 
